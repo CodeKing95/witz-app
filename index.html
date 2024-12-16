@@ -13,14 +13,11 @@
 
       <div class="current-joke">
         <p class="current-joke__text">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic ratione
-          cupiditate nam obcaecati, doloribus ducimus non quibusdam dolorem
-          accusantium numquam. Incidunt delectus facere sapiente ullam ducimus
-          officia sed animi consequuntur?
+          <em>Click on the button to load a new joke</em>
         </p>
         <div class="current-joke__actions">
           <button class="current-joke__generate">Load a new Joke</button>
-          <button class="current-joke__save">
+          <button class="current-joke__save current-joke__save--disabled">
             <span>Save Joke</span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -43,34 +40,10 @@
       <div class="saved-jokes">
         <h2 class="saved-jokes__heading">Saved Jokes</h2>
         <div class="saved-jokes__list">
-          <div class="saved-joke">
-            <div class="saved-joke__text">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit
-              illum, assumenda id cum possimus iusto fuga facilis sed
-              reprehenderit accusantium, dolorem ut exercitationem dicta numquam
-              sit labore. Deleniti, magnam voluptatem!
-            </div>
-            <button class="saved-joke__remove">
-              Delete Joke
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="currentColor"
-                class="saved-joke__remove-icon"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M6 18 18 6M6 6l12 12"
-                />
-              </svg>
-            </button>
-          </div>
+          <button class="saved-joke__remove">Delete</button>
         </div>
       </div>
     </div>
-    <script type="module" src="/src/main.js"></script>
+    <script type="module" src="main.js"></script>
   </body>
 </html>

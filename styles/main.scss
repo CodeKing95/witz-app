@@ -84,6 +84,10 @@ body {
     align-items: center;
     justify-content: center;
     gap: 0.5rem;
+
+    &--disabled {
+      display: none;
+    }
   }
 
   &__save-icon {
@@ -130,10 +134,6 @@ body {
     border-radius: 4px;
     cursor: pointer;
     transition: 0.2s all ease-in-out;
-
-    &:hover {
-      background-color: darken($fire-color, 7);
-    }
   }
 
   &__remove-icon {
